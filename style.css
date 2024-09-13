@@ -1,0 +1,167 @@
+/* 
+    font-family: "Playfair Display", serif;
+    font-family: "Whisper", cursive;
+    color: #2A3439;
+*/ 
+
+body {
+    font-family: "Playfair Display", serif;
+    background-color: #EFDECD;
+}
+
+#hero {
+    background-image: url("./galeria/hero-pic1.avif");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero .menu-flex{
+    display: flex;
+    justify-content:space-between;
+}
+
+.menu-list{
+    display: flex;
+    background-color: rgb(255, 255, 255, .6);
+}
+
+.menu-list li {
+    padding: 0 60px 0 30px;
+
+}
+
+#hero .hero-title {
+    margin: 10px 20px 20px 130px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2A3439;
+}
+
+#hero #menu .menu-list li a{
+    text-decoration: none;
+    color: #2A3439;
+}
+
+#hero #menu .menu-list li{
+    list-style: none;
+    
+}
+
+#hero .hero-description{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(255, 255, 255, .7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding:20px;
+}
+
+#hero .hero-description p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#hero .hero-description h2{
+    font-weight: 300;
+    font-size: 47px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 5;
+}
+
+#hero .hero-description button{
+    border: none;
+    background-color: #9F8170;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#about{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+}
+
+#about .about-img img {
+    width: 400px;
+    height: 280px;
+    border: 3px solid white;
+    margin: 90px 40px 20px 20px;
+}
+
+#about .about-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 70px 10px 20px 40px;
+}
+
+#about .about-description p{
+    text-align: center;
+    font-size: 11px;
+
+}
+
+#about .about-description h3{
+    font-weight: 400;
+    font-size: 36px;
+    font-family: "Whisper", cursive;
+    margin: 15px 20px;
+    
+}
+
+#about .about-description p:first-of-type{
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+}
+
+#about .about-description p:nth-of-type(2){
+    letter-spacing: 2px;
+}
+
+#phrase-home {
+    background-image: url("./galeria/quote-home.avif");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+#phrase-home .phrase-container {
+    width: 500px;
+    height: 170px;
+    background-color: rgb(255, 255, 255, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.phrase-container h2{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+#phrase-home .phrase-container p{
+    font-weight: 400;
+    font-size: 25px;
+    font-family: "Whisper", cursive;
+    margin-top: 0;
+}
