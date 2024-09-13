@@ -6,7 +6,7 @@
 
 body {
     font-family: "Playfair Display", serif;
-    background-color: #EFDECD;
+    background-color: #ffefe0;
 }
 
 #hero {
@@ -98,6 +98,7 @@ body {
     border: 3px solid white;
     border-radius: 25px 0 25px 0;
     margin: 90px 40px 20px -20px;
+    opacity: 0.7;
 }
 
 #about .about-description {
@@ -171,4 +172,74 @@ main #phrase-home .phrase-container {
     font-size: 25px;
     font-family: "Whisper", cursive;
     margin-top: 0;
+}
+
+#services .services-title h2{
+    font-family: "Whisper", cursive;
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+}
+
+#services .services-types{
+    display: flex;
+    justify-content: center;
+}
+
+#services .services-types .services-options{
+    padding: 20px;
+    position: relative;
+}
+
+#services .services-types .services-options img{
+    width: 170px;
+    height: 270px;
+    border: 2px solid white;
+    border-radius: 10px 0 10px 0;
+    opacity: 0.7;
+    
+}
+
+#services .services-types .services-options .services-offer {
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(127, 165, 127);
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 70%;
+    right: 30%;
+    left: 20%;
+    padding: 5px;
+    z-index: 2;
+    
+}
+
+#services .services-types .services-options .services-btn {
+    border: none;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    top: 80%;
+    padding: 20px 30px 10px 30px;
+    margin: 10px 0 0 0;
+    z-index: 1;
+}
+
+#footer-contact{
+    display: flex;
+    background-image: url("./galeria/footer-background-option2.jpeg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    opacity: 0.7;
+
+}
+
+#footer-contact .footer-img img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    
 }
