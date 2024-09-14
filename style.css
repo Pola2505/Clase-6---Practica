@@ -210,11 +210,14 @@ main #phrase-home .phrase-container {
 #services .services-types{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #services .services-types .services-options{
     padding: 20px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+
 }
 
 #services .services-types .services-options img{
@@ -233,24 +236,12 @@ main #phrase-home .phrase-container {
     font-size: 15px;
     font-weight: 200;
     letter-spacing: 2px;
-    position: absolute;
-    top: 70%;
-    right: 30%;
-    left: 20%;
-    padding: 5px;
-    z-index: 2;
-    
 }
 
 #services .services-types .services-options .services-btn {
     border: none;
-    display: inline-block;
-    position: absolute;
-    left: 30%;
-    top: 80%;
-    padding: 20px 30px 10px 30px;
-    margin: 10px 0 0 0;
-    z-index: 1;
+    padding: 10px;
+    
 }
 
 #footer-contact{
