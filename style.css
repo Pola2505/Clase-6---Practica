@@ -12,6 +12,7 @@ body {
 #hero {
     background-image: url("./galeria/hero-pic1.avif");
     height: 500px;
+    width: 100%;
     background-position: center;
     background-size: cover;
 }
@@ -85,6 +86,26 @@ body {
     letter-spacing: 2px;
 }
 
+#hero .hero-description button a {
+    text-decoration: none;
+}
+
+#hero .hero-description button a:link{
+    color: white;
+}
+
+#hero .hero-description button a:visited{
+    color: white;
+}
+
+#hero .hero-description button a:hover{
+    color: black;
+}
+
+#hero .hero-description button a:active{
+    color:white;
+}
+
 #about{
     display: flex;
     justify-content: center;
@@ -151,6 +172,7 @@ main #phrase-home .phrase-container {
     background-color: rgb(255, 255, 255, .5);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: -130px 0 0 -250px;
     padding: 20px;
@@ -172,6 +194,10 @@ main #phrase-home .phrase-container {
     font-size: 25px;
     font-family: "Whisper", cursive;
     margin-top: 0;
+}
+
+#services{
+    margin: 0 0 70px 0;
 }
 
 #services .services-title h2{
@@ -234,6 +260,7 @@ main #phrase-home .phrase-container {
     height: 400px;
     width: 100%;
     opacity: 0.7;
+    align-items: center;
 
 }
 
@@ -241,5 +268,71 @@ main #phrase-home .phrase-container {
     width: 170px;
     height: 170px;
     border-radius: 50%;
-    
+    margin: 0 0 0 110px;
 }
+
+#footer-contact .footer-opinion {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 40px 50px 0 50px;
+    height: 150px;
+    width: 300px;
+    background-color: #fdf5ec;
+    opacity: 0.7;
+    margin: 0 0 0 80px;
+}
+
+.footer-message .footer-ask {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 60px 10px 30px;
+}
+
+#footer-form {
+    background-color: #94a87c;
+    height: 250px;
+    width: 270px;
+    padding: 0 0 0 40px;
+    margin: 100px;
+}
+
+#footer-form .footer-headline{
+    margin: -20px 50px 5px 10px;
+    background-color: white;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+#footer-form .footer-headline #footer-headline-decoration{
+    font-family: "Whisper", cursive;
+    color: #9F8170;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.footer-message .footer-ask label{
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-message .footer-ask input, .footer-message .footer-ask textarea{
+    border: none;
+    padding: 5px;
+    color: black;
+}
+
+.footer-message .footer-ask .footer-btn{
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    background-color: #9F8170;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+
+
+
