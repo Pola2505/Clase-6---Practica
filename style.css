@@ -214,7 +214,7 @@ main #phrase-home .phrase-container {
 }
 
 #services .services-types .services-options{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
 
@@ -241,7 +241,12 @@ main #phrase-home .phrase-container {
 #services .services-types .services-options .services-btn {
     border: none;
     padding: 10px;
-    
+    background-color:#87907b;
+}
+
+#services .services-types .services-options .services-btn a{
+    text-decoration: none;
+    color: white;
 }
 
 #footer-contact{
